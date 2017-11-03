@@ -3,6 +3,13 @@
   <p>
     <%= @pic.description %>
   </p>
+
+  <p>
+    <%= @pic.user.email %>
+  </p>
+  <p>
+    <%= @pic.description %>
+  </p>
   <%= link_to  "Back", root_path %>
   <%= link_to  "Edit", edit_pic_path %>
   <%= link_to  "Delete", pic_path, method: :delete, data: { confirm: "Are u sure?"} %>
