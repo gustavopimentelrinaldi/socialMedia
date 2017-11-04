@@ -6,6 +6,10 @@
       </div>
       
       <div class="panel-body">
+        <div class=".current_image">
+          <strong class="center"> Right now  </strong> <br>
+          <%= image_tag @pic.image.url(:medium) %>
+        </div>
         <%= render  "form" %>
         <%= link_to  "Back", root_path %>
       </div>
