@@ -1,4 +1,4 @@
-# Dependências da App
+# App Dependencies
 
 * ImageMagick
 
